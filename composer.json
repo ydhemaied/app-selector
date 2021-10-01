@@ -1,0 +1,28 @@
+{
+    "name": "magnet/app-selector",
+    "description": "A navbar module showing all system's registered apps",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Magnet\\AppSelector\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Younes Dhemaied",
+            "email": "younes.dhemaied@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Magnet\\AppSelector\\AppSelectorServiceProvider"
+            ]
+        }
+    }
+}

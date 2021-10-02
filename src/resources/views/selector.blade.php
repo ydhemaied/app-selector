@@ -3,7 +3,7 @@
         Apps
     </a>
     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-        @foreach ($apps as $app)
+        @foreach (Selector::apps() as $app)
             <a class="dropdown-item" href="#">{{ $app->name }}</a>
         @endforeach
     </div>

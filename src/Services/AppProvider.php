@@ -18,7 +18,7 @@ class AppProvider implements AppProviderInterface
 
     public function getApps()
     {
-        $response = $this->client->request('GET', sprintf('%s/api/v1/apps?current=%s', env('APPS_DOMAIN'), Str::slug(config('app.name'))));
+        $response = $this->client->request('GET', sprintf('%s/api/v1/apps?current=%s', config('apps.domain'), Str::slug(config('app.name'))));
 
         if ($response->getStatusCode() !== 200)
             throw new Exception($response->getReasonPhrase);

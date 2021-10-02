@@ -22,7 +22,10 @@
         "laravel": {
             "providers": [
                 "Magnet\\AppSelector\\AppSelectorServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Selector": "Magnet\\AppSelector\\Selector"
+            }
         }
     }
 }

@@ -23,7 +23,7 @@ class AppSelectorServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->singleton(AppProviderInterface::class, function($app) {
+        $this->app->bind(AppProviderInterface::class, function($app) {
             return new AppProvider($app->make(Client::class));
         });
     }

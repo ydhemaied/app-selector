@@ -24,7 +24,7 @@
                 "Magnet\\AppSelector\\AppSelectorServiceProvider"
             ],
             "aliases": {
-                "Selector": "Magnet\\AppSelector\\Selector"
+                "Selector": "Magnet\\AppSelector\\Support\\Facades\\Selector"
             }
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Magnet\AppSelector;
+namespace Magnet\AppSelector\Support\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

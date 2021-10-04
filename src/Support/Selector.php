@@ -1,11 +1,11 @@
 <?php
 
-namespace Magnet\AppSelector;
+namespace Magnet\AppSelector\Support;
 
 use Illuminate\Support\Facades\App;
 use Magnet\AppSelector\Services\Contracts\AppProviderInterface;
 
-class AppSelector
+class Selector
 {
     public function apps()
     {
